@@ -1,3 +1,10 @@
+## Задачи из курса ["Анализ данных в R. Часть вторая"](https://stepik.org/course/724)  
+  
+[Примеры из презентаций](src/an2/samples)  
+[01](src/an2/01.r) Максимальные значения с пом-ю apply.  
+  
+  
+  
 ## Задачи из курса ["Анализ данных в R"](https://stepik.org/course/129)  
   
 [Примеры из презентаций](src/an1/samples-from-presentations)  
