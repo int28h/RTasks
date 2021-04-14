@@ -7,4 +7,3 @@ get_negative_values <- function(test_data){
     test_data[is.na(test_data)] <- 0
     apply(test_data[colSums(test_data < 0) > 0], 2, function(test_data) test_data[test_data < 0])
 }
-}

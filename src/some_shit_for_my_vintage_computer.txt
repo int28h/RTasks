@@ -1,0 +1,7 @@
+https://cran.rstudio.com/
+
+https://cran.rstudio.com/bin/windows/Rtools/
+
+writeLines('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', con = "~/.Renviron")
+
+install.packages("devtools", repo="https://cran.r-project.org/")
