@@ -134,9 +134,11 @@ install.packages("phonTools")
 # library(phonTools)
 pickIPA(n = 1)
 
+# решение квадратного уравнения
 # equation <- 3 - 2*pi*x + x**2
 polyroot(c(3, -2*pi, 1))
 
+# решение интеграла
 integrand <- function(x){
   return ((1 + 2 * x ** 2) * exp(x ** 2))
 }
