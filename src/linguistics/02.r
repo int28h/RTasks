@@ -7,3 +7,7 @@ s <- tibble(iris)
 
 tibble(numbers = 1:10, letters = letters[1:10]) # преобразование в датафрейм
 
+# ways to load data
+
+df <- read_csv("link")
+df2 <- read_csv("link")
