@@ -31,3 +31,13 @@ rm(sliced)
 
 wals1 %>% 
   select(genus:countrycodes)
+
+# Скачайте датасет из работы (Nettle 1998). 
+# Посчитайте, сколько в среднем языков на страну представлено в каждой из частей света. 
+# В ответе приведите наименее разнообразную согласно этой мере часть света.
+lang_diversity <- read_tsv("https://raw.githubusercontent.com/agricolamz/r_on_line_course_data/master/language_diversity.csv")
+answer <- lang_diversity %>% 
+  group_by(Continent) %>% 
+  summarise(mean = mean(Langs)) %>% 
+  arrange(mean)
+
