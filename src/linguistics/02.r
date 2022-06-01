@@ -41,3 +41,10 @@ answer <- lang_diversity %>%
   summarise(mean = mean(Langs)) %>% 
   arrange(mean)
 
+# joins
+# inner_join(x, y) соединит по общему столбцу без пустых значений
+# left_join(x, y)  все из левого + совпадения из правого
+# right_join(x, y)  по аналогии
+# anti_join(x, y) только те строки которых нет во втором датасете
+# full_join(x, y) полное объединение
+
