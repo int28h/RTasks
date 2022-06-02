@@ -48,3 +48,4 @@ answer <- lang_diversity %>%
 # anti_join(x, y) только те строки которых нет во втором датасете
 # full_join(x, y) полное объединение
 
+
